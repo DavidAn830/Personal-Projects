@@ -1,0 +1,9 @@
+Advantages:
+
+    Creates web-apps
+    Easy to publish as application 'PWA' 'ReactApp'
+    Visually appealing for users
+
+    Grammar > hard
+
+    npx create-react-app my-app     // react project created
