@@ -41,10 +41,9 @@ function render(results){
     }
 }
 
-
 input.addEventListener('input', function(e) {
     e.preventDefault();
-    // console.log(input.value);
+    console.log(input.value);
     search(input.value);
 })
 

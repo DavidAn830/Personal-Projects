@@ -3,6 +3,8 @@ Advantages:
     Creates web-apps
     Easy to publish as application 'PWA' 'ReactApp'
     Visually appealing for users
+    Data Binding
+        bring data from server, save it in a variable in js, and use it in jsx
 
     Grammar > hard
 
