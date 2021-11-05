@@ -7,7 +7,7 @@ function search(name){
     .then((res) => res.json())
     .then((data) => {
         const results = data.results.filter((e) => e.artistName);
-        console.log(results);
+        // console.log(results);
         render(results);
         // console.log(data);
     })
@@ -41,10 +41,24 @@ function render(results){
     }
 }
 
-input.addEventListener('input', function(e) {
+
+let timer;
+
+input.addEventListener('keyup', function(e) {
+    const waitTime = 2000;
+
     e.preventDefault();
-    console.log(input.value);
-    search(input.value);
+    const text = e.currentTarget.value;
+
+    console.log('before clear ----- ', timer)
+    clearTimeout(timer);
+    console.log('after clear ---- ', timer)
+    timer = setTimeout( ()=>{
+        search(text);
+        console.log(input.value);
+    }, waitTime )
+
+    console.log('after set -----', timer)
 })
 
 document.addEventListener('keypress', function (e) {
