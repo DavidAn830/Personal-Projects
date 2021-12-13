@@ -45,7 +45,7 @@ function render(results){
 let timer;
 
 input.addEventListener('keyup', function(e) {
-    const waitTime = 2000;
+    const waitTime = 500;
 
     e.preventDefault();
     const text = e.currentTarget.value;
