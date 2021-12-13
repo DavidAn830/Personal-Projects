@@ -3,10 +3,14 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./Components/HomePage";
 import ContactPage from "./Components/ContactPage";
 import PortfolioPage from "./Components/PortfolioPage";
-import Navigation from "./Components/Navigation/Navigation";
-import Footer from "./Components/Footer/Footer";
+import { Tabs, Tab } from "@material-ui/core";
+import React from "react";
 
 function App() {
+  // const [value, setValue] = React.useState(0);
+  // const handleChange = (e, newVal) => {
+  //   setValue(newVal);
+  // };
   return (
     <div className="App">
       <Routes>
@@ -15,8 +19,11 @@ function App() {
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/Portfolio" element={<PortfolioPage />} />
       </Routes>
-      {/* <Navigation />
-      <Footer /> */}
+      {/* <Tabs value={value} onChange={handleChange}>
+        <Tab label="first" />
+        <Tab label="first" />
+        <Tab label="first" />
+      </Tabs> */}
     </div>
   );
 }

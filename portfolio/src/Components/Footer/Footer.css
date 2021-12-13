@@ -1,6 +1,7 @@
 .footer {
   background-color: black;
   color: white;
+  fill: gray;
   padding-top: 50px;
 }
 
@@ -8,12 +9,12 @@
   display: flex;
   justify-content: center;
 }
-.media img {
-  height: 50px;
+.media svg {
+  font-size: 50px;
 }
 
 .responsive-img {
-  padding: 50px 5%;
+  margin: 50px 5%;
 }
 
 .responsive-img:hover {
