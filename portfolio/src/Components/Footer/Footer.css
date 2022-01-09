@@ -1,0 +1,27 @@
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+.media img {
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin-top: 30px;
+}
