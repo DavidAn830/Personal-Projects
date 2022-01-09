@@ -1,57 +1,27 @@
 .footer {
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
-  padding-top: 50px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .media {
   display: flex;
   justify-content: center;
 }
+
 .media img {
-  height: 50px;
-}
-
-.responsive-img {
-  padding: 50px 5%;
-}
-
-.responsive-img:hover {
-  fill: white;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: center;
-}
-
-.personal-contact,
-.personal-email {
-  margin: 0 2%;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .copyright {
-  width: 30%;
-  text-align: center;
-}
-
-.copyright h4 {
-  margin: 10px 0;
-}
-
-.footer-nav {
-  width: 70%;
-  text-align: center;
-}
-
-.footer-row {
   display: flex;
-  padding: 50px 0;
-}
-
-.resume-footer {
-  padding: 0 7%;
-  font-size: 25px;
-  text-decoration: none;
-  color: inherit;
+  justify-content: center;
+  font-size: small;
+  margin-top: 30px;
 }
