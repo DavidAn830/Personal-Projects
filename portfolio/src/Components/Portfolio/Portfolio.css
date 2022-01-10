@@ -1,6 +1,7 @@
 .portfolio-container {
   height: 800px;
   background-color: #efe1bd;
+  flex-wrap: wrap;
 }
 
 .portfolio-title-container {

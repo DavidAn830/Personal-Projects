@@ -27,12 +27,26 @@
 
 .introduction-container {
   width: 1200px;
-  height: 200px;
+  height: 250px;
   border: 1px solid lightgray;
 }
 
+.introduction-bar {
+  width: 1200px;
+  height: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.dots {
+  height: 2px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding: 1px;
+}
+
 .introduction {
-  line-height: 20px;
+  line-height: 30px;
   font-family: "Courier New", Courier, monospace;
-  padding: 10px;
+  padding: 20px;
 }
