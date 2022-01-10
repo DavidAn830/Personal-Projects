@@ -12,9 +12,9 @@ const AboutMe = () => {
         </div>
         <div className="introduction-container">
           <div className="introduction-bar">
-            <span className="dots" />
-            <span className="dots" />
-            <span className="dots" />
+            <span className="dots red" />
+            <span className="dots yellow" />
+            <span className="dots green" />
           </div>
           <div className="introduction">
             Hi, I am David An and I have 5 years of professional experience in
