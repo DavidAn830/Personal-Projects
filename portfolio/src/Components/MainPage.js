@@ -1,15 +1,14 @@
 import Navigation from "./Navigation/Navigation";
 import Footer from "./Footer/Footer";
-import Contact from "./Contact/Contact";
+import Home from "./Home/Home";
 
-const ContactPage = () => {
+const HomePage = () => {
   return (
     <>
-      <Navigation />
-      <Contact />
+      <Home />
       <Footer />
     </>
   );
 };
 
-export default ContactPage;
+export default HomePage;
