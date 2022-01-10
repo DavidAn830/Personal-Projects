@@ -1,5 +1,7 @@
 .about-me-container {
   height: 700px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me-title-container {
@@ -26,8 +28,9 @@
 }
 
 .introduction-container {
-  width: 1200px;
-  height: 270px;
+  width: fit-content;
+  max-width: 1200px;
+  height: fit-content;
   border: 1px solid lightgray;
   border-radius: 5px;
 }

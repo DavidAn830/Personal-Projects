@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import WorkIcon from "@material-ui/icons/Work";
 import "react-vertical-timeline-component/style.min.css";
+import HourglassFullIcon from "@material-ui/icons/HourglassFull";
 
 const Experience = () => {
   return (
@@ -83,6 +84,10 @@ const Experience = () => {
               <div className="small-skills">RESful API</div>
             </div>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            iconStyle={{ background: "#ae944f", color: "#fff" }}
+            icon={<HourglassFullIcon />}
+          />
         </VerticalTimeline>
       </div>
     </div>
