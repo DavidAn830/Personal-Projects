@@ -1,3 +1,29 @@
-.portfolio {
+.portfolio-container {
   height: 800px;
+  background-color: #efe1bd;
+}
+
+.portfolio-title-container {
+  text-align: center;
+  padding-top: 80px;
+  height: 200px;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.projects-container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card {
+  background-color: white;
+  width: 450px;
+  height: 370px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
