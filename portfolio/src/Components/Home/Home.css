@@ -1,10 +1,11 @@
 .home-container {
   height: 100vh;
   background-color: #e9d5a1;
+  min-height: 450px;
 }
 
 .home-content-container {
-  padding-top: 40vh;
+  padding-top: 27vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,8 +28,10 @@
 }
 
 .github-container img {
-  height: 100px;
+  height: 80px;
 }
 
 .github-container {
+  padding-top: 10px;
+  padding-left: 20px;
 }

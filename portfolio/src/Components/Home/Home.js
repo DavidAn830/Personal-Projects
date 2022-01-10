@@ -1,6 +1,7 @@
 import "./Home.css";
 import laptop from "../../images/laptop.svg";
 import github from "../../images/github.svg";
+import TypeWriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -13,7 +14,19 @@ const Home = () => {
       <div className="home-content-container">
         <img className="laptop-icon" src={laptop} />
         <h1 className="home-name">David An</h1>
-        <p className="job-title">REACT DEVELOPER</p>
+        <div className="job-title">
+          <TypeWriter
+            options={{
+              strings: [
+                "REACT DEVELOPER",
+                "WEB-DEVELOPER",
+                "FRONT-END DEVELOPER",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </div>
       </div>
     </div>
   );
