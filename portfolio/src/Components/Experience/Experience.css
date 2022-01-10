@@ -1,6 +1,6 @@
 .experience-container {
   background-color: #efe1bd;
-  height: 800px;
+  height: 1000px;
 }
 
 .experience-title-container {
@@ -13,4 +13,18 @@
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 5px;
+}
+
+.small-skills {
+  font-size: 10px;
+  background-color: #f9f5e9;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.small-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
