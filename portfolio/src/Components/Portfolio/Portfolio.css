@@ -1,6 +1,6 @@
 .portfolio-container {
   height: 800px;
-  background-color: #efe1bd;
+  background-color: #9fb5b7;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -21,6 +21,7 @@
 .projects-container {
   padding: 50px;
   display: flex;
+  justify-content: space-around;
 }
 
 .project-card {
@@ -29,4 +30,42 @@
   height: 370px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 0 5%;
+  text-align: center;
+}
+
+.project-card img {
+  width: 430px;
+  height: 270px;
+  margin: 10px;
+}
+
+.more-btn {
+  background-color: transparent;
+  border: 2px solid gray;
+  color: gray;
+  padding: 5px 15px;
+  font-size: large;
+  margin-top: 10px;
+  cursor: pointer;
+  letter-spacing: 5px;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.more-btn:hover {
+  border: 2px solid #c3a3a1;
+  background-color: #c3a3a1;
+  color: black;
+  font-size: 25px;
+}
+
+#transition-modal-title {
+  font-weight: 600;
+}
+
+#transition-modal-description {
+  margin-top: 20px;
 }
