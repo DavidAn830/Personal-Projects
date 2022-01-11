@@ -1,4 +1,6 @@
 import "./AboutMe.css";
+import profile from "../../images/profile.jpg";
+import react_logo from "../../images/react_logo.png";
 
 const AboutMe = () => {
   return (
@@ -8,7 +10,10 @@ const AboutMe = () => {
       </div>
       <div className="info-container">
         <div className="profile-card-container">
-          <div className="profile-card"></div>
+          <div className="profile-card">
+            <img className="profile-pic" src={profile} />
+            <img className="react-logo" src={react_logo} />
+          </div>
         </div>
         <div className="introduction-container">
           <div className="introduction-bar">

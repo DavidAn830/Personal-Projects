@@ -28,6 +28,7 @@ const Portfolio = () => {
   const handleTeachStoneClose = () => setTeachStoneOpen(false);
   const handleGizmosOpen = () => setGizmosOpen(true);
   const handleGizmosClose = () => setGizmosOpen(false);
+
   return (
     <div className="portfolio-container">
       <div className="portfolio-title-container">

@@ -25,6 +25,18 @@
   width: 250px;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+
+.profile-card .profile-pic {
+  width: 230px;
+  height: auto;
+  margin: 10px;
+}
+
+.profile-card .react-logo {
+  width: 50px;
+  height: auto;
 }
 
 .introduction-container {
